@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 * {
-  font-family: "Archivo", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 button:focus {
   outline: 0;
@@ -11,7 +12,7 @@ html {
 body {
   font-size: 1.8rem;
   line-height: 1.4em;
-  font-weight: 300;
+  font-weight: 400;
   color: #27187e;
 }
 .container-fluid {
@@ -53,12 +54,16 @@ nav ul li a {
   color: #27187e;
   text-decoration: none;
   font-size: 1.6rem;
-  font-style: italic;
   transition: 0.3 all ease-in-out;
 }
 nav ul li a:hover {
-  font-style: normal;
+  opacity: 0.6;
   color: #27187e;
+}
+h3{
+  font-weight: 800;
+  font-size: 1.6rem;
+  text-transform: uppercase;
 }
 .header-text {
   padding: 4rem 0;
@@ -69,7 +74,6 @@ nav ul li a:hover {
 }
 .header-text p {
   margin-bottom: 1rem;
-  font-style: italic;
 }
 @media (min-width: 992px) {
   .header-text {
@@ -91,8 +95,10 @@ nav ul li a:hover {
 .back-to-jobs svg {
   transform: rotate(90deg);
   vertical-align: middle;
-  margin-left: -1.5rem;
-  max-width: 30px;
+  margin-left: -0.5rem;
+  margin-top: -0.3rem;
+  width: 24px;
+  height: 24px;
 }
 .back-to-jobs svg .arrow {
     fill: #27187e;
@@ -159,6 +165,7 @@ h1 {
 .accordion .accordion-item button {
   padding: 1.5rem 0;
   font-size: 1.8rem;
+  font-weight: 700;
   color: #27187e;
   background-color: transparent;
 }
@@ -283,7 +290,7 @@ footer p::before {
 }
 .project-wrapper .project-title p {
   color: #27187e;
-  opacity: 0.4;
+  opacity: 0.7;
 }
 .project-wrapper .project-icon {
   margin-top: 0.6rem;
@@ -310,15 +317,19 @@ footer {
 }
 footer .copyright {
   display: inline-block;
+  font-size: 1.2rem;
+  opacity: 0.7;
 }
 footer a {
   text-decoration: none;
   color: #27187e;
-  font-style: italic;
 }
 footer a:hover {
   color: #27187e;
-  font-style: normal;
+  opacity: 0.6;
+}
+footer h1{
+  margin-bottom: 2rem;
 }
 .socials a {
   display: inline-block;
