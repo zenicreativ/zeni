@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 * {
   font-family: "Manrope", sans-serif;
 }
@@ -55,12 +55,13 @@ nav ul li a {
   text-decoration: none;
   font-size: 1.6rem;
   transition: 0.3 all ease-in-out;
+  font-weight: 600;
 }
 nav ul li a:hover {
   opacity: 0.6;
   color: #27187e;
 }
-h3{
+h3 {
   font-weight: 800;
   font-size: 1.6rem;
   text-transform: uppercase;
@@ -90,7 +91,11 @@ h3{
   display: inline-block;
   margin-bottom: 2rem;
   color: #27187e;
-  font-style: italic;
+  font-weight: 600;
+  border: 1px dashed #27187e3b;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: 0.3s all ease-in-out;
 }
 .back-to-jobs svg {
   transform: rotate(90deg);
@@ -101,23 +106,35 @@ h3{
   height: 24px;
 }
 .back-to-jobs svg .arrow {
-    fill: #27187e;
+  fill: #27187e;
 }
 
 .back-to-jobs:hover {
   font-style: normal;
-  color: #27187e;
+  opacity: 0.6;
+  color: #fff;
+  background-color: #27187e;
 }
+
+.back-to-jobs:hover svg .arrow {
+  fill: #fff;
+}
+
 .back-to-top {
   text-decoration: none;
   display: inline-block;
   margin-top: 2rem;
   color: #27187e;
-  font-style: italic;
+  font-weight: 600;
+  border: 1px dashed #27187e3b;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: 0.3s all ease-in-out;
 }
 .back-to-top:hover {
   font-style: normal;
-  color: #27187e;
+  color: #fff;
+  background-color: #27187e;
 }
 h1 {
   font-weight: 900;
@@ -318,17 +335,17 @@ footer {
 footer .copyright {
   display: inline-block;
   font-size: 1.2rem;
-  opacity: 0.7;
 }
 footer a {
   text-decoration: none;
   color: #27187e;
+  font-weight: 600;
 }
 footer a:hover {
   color: #27187e;
   opacity: 0.6;
 }
-footer h1{
+footer h1 {
   margin-bottom: 2rem;
 }
 .socials a {
@@ -356,12 +373,10 @@ footer h1{
   }
 }
 
-
-
-.slideshow{
+.slideshow {
   display: flex;
   margin-bottom: 5rem;
 }
-.slideshow img{
+.slideshow img {
   width: 25%;
 }
