@@ -111,7 +111,6 @@ h3 {
 
 .back-to-jobs:hover {
   font-style: normal;
-  opacity: 0.6;
   color: #fff;
   background-color: #27187e;
 }
@@ -318,6 +317,9 @@ footer p::before {
   height: 3rem;
   width: 3rem;
   transform: rotate(-90deg);
+}
+.project-wrapper .project-icon svg path:first-child{
+  fill: #27187e;
 }
 .project-outer-xs {
   border-bottom: 1px solid #000;
