@@ -205,7 +205,7 @@ h1 {
   color: #27187e;
 }
 .accordion .accordion-item button:not(.collapsed)::after {
-  background-image: url('../images/arrow-up.svg');
+  /*background-image: url('../images/arrow-up.svg');*/
 }
 .accordion .accordion-item .accordion-body {
   padding: 2rem 0 4rem 0;
